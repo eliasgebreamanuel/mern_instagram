@@ -207,7 +207,7 @@ function App() {
           />
         </div>
       </div>
-
+console.log('pr inting to the console');
       {user?.displayName ? (
         <div className="app__upload">
           <ImageUpload username={user.displayName} />
